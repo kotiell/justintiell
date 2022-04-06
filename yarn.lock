@@ -1503,6 +1503,11 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@fontsource/roboto@^4.5.5":
+  "integrity" "sha512-Pe1p+gAO6K0aLxBXlLoJRHVx352tVc/v/7DOnvM3t+FYXb+KUga9aCD1NpnDfd0kKnWXqrZyAXguyyFWDDuphw=="
+  "resolved" "https://registry.npmjs.org/@fontsource/roboto/-/roboto-4.5.5.tgz"
+  "version" "4.5.5"
+
 "@humanwhocodes/config-array@^0.9.2":
   "integrity" "sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw=="
   "resolved" "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.9.5.tgz"
@@ -1739,7 +1744,14 @@
     "prop-types" "^15.7.2"
     "react-is" "^17.0.2"
 
-"@mui/material@^5.6.0":
+"@mui/icons-material@^5.6.0":
+  "integrity" "sha512-2GDGt+/BbwM3oVkF84b9FFKQdQ9TxBJIRnTwT99vO2mimdfJaojxMRB2lkysm9tUY4HOf0yoU6O//X6GTC0Zhw=="
+  "resolved" "https://registry.npmjs.org/@mui/icons-material/-/icons-material-5.6.0.tgz"
+  "version" "5.6.0"
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+
+"@mui/material@^5.0.0", "@mui/material@^5.6.0":
   "integrity" "sha512-yh4FoRRPTgJWjv1oIu3YuvfYGD/WOEnyGizQ9fKs+hlMjIc0rzFpyUCo++P/3BUd0/hRKcI8D8mrpJK9OiOy1g=="
   "resolved" "https://registry.npmjs.org/@mui/material/-/material-5.6.0.tgz"
   "version" "5.6.0"
