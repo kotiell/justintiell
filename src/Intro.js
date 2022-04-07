@@ -32,7 +32,7 @@ function App() {
               </p>
 
               <p>
-                I am most profeciant with frontend langauges like HTML, CSS and JS I have also built multiple solutions using PHP (WordPress and Laravel) and React.js.
+                I am most proficient with frontend langauges like HTML, CSS and JS I have also built multiple solutions using PHP (WordPress and Laravel) and React.js.
               </p>
             </Box>
           </Grid>
