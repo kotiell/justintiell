@@ -4,11 +4,17 @@ import './index.css';
 import Intro from './Intro';
 import Social from './Social';
 import reportWebVitals from './reportWebVitals';
+import Container from '@mui/material/Container';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Intro />
-    <Social />
+
+    <Container sx={{
+      width: '900px'
+    }}>
+      <Intro />
+      <Social />
+    </Container>
   </React.StrictMode>,
   document.getElementById('root')
 );

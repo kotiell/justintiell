@@ -2,41 +2,47 @@ import { Box } from '@mui/system';
 import Resume from './downloads/Justin_Tiell_Resume.pdf';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
-import Avatar from '@mui/material/Avatar';
-import JustinPic from './downloads/me.jpg'
+import JustinPic from './downloads/me.jpg';
+import Grid from '@mui/material/Grid';
 
 function App() {
   return (
-    <Box sx={{
-      display: 'flex',
-      justifyContent: 'center',
-    }}>
       <Paper sx={{
         px: 3,
         py: 2.5,
-        width: '50%',
+        width: '900px',
         mt: 3,
       }}>
         <h1 style={{ marginTop: 0 }}>Justin Tiell</h1>
         <Box sx={{
-          display: 'flex',
+          flexGrow: 1
         }}>
-          <Box>
-            <p style={{marginTop: '0'}}>
-              I am an experienced web developer and UX designer with more a decade of working in multiple team environments. I spend time with clients to establish their goals and the needs of the users. Creating mockups and prototypes with Adobe XD allows everyone to get a clear vision of how the solution will look and function. After an agreed upon mockup I then build the app/site with HTML, CSS, JS, and PHP.
-            </p>
+          <Grid container spacing={2}>
+            <Grid item xs={12} md={2}>
+              <img
+                src={JustinPic}
+                alt="Justin Tiell"
+                style={{
+                  maxWidth: '100%',
+                  borderRadius: '4px'
+                  
+                }}
+              />
+            </Grid>
+            <Grid item xs={12} md={10}><Box sx={{
+              xs: 1
+            }}>
+              <p style={{ marginTop: '0' }}>
+                I am an experienced web developer and UX designer with more a decade of working in multiple team environments. I spend time with clients to establish their goals and the needs of the users. Creating mockups and prototypes with Adobe XD allows everyone to get a clear vision of how the solution will look and function. After an agreed upon mockup I then build the app/site with HTML, CSS, JS, and PHP.
+              </p>
 
-            <p>
-              I am most profeciant with frontend langauges like HTML, CSS and JS I have also built multiple solutions using PHP (WordPress and Laravel) and React.js.
-            </p>
-          </Box>
+              <p>
+                I am most profeciant with frontend langauges like HTML, CSS and JS I have also built multiple solutions using PHP (WordPress and Laravel) and React.js.
+              </p>
+            </Box>
+            </Grid>
 
-          <Avatar sx={{
-            height: 200,
-            width: 200,
-            boxShadow: 2,
-            ml: 2
-          }} src={JustinPic} />
+          </Grid>
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
           <Box>
@@ -68,7 +74,6 @@ function App() {
         </Box>
         <Button sx={{ mt: 2 }} variant="contained" href={Resume} download>Download Resume</Button>
       </Paper>
-    </Box>
   );
 }
 
