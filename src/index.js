@@ -9,9 +9,7 @@ import Container from '@mui/material/Container';
 ReactDOM.render(
   <React.StrictMode>
 
-    <Container sx={{
-      maxWidth: '900px'
-    }}>
+    <Container maxWidth="md">
       <Intro />
       <Social />
     </Container>
