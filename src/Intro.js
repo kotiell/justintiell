@@ -10,11 +10,9 @@ function App() {
     <Paper sx={{
       px: 3,
       py: 2.5,
-      width: '900px',
       mt: 3,
     }}>
       <h1 style={{ marginTop: 0 }}>Justin Tiell</h1>
-      <Box>
         <Grid container spacing={2}>
           <Grid item xs={12} md={3}>
             <img
@@ -40,8 +38,7 @@ function App() {
           </Grid>
 
         </Grid>
-      </Box>
-      <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+      <Box sx={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap' }}>
         <Box>
           <h3>Programming Languages</h3>
           <ul>
