@@ -10,7 +10,7 @@ ReactDOM.render(
   <React.StrictMode>
 
     <Container sx={{
-      width: '900px'
+      maxWidth: '900px'
     }}>
       <Intro />
       <Social />
