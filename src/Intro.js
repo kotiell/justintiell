@@ -32,9 +32,9 @@ function App() {
           </Box>
 
           <Avatar sx={{
-            height: 150,
-            width: 150,
-            boxShadow: 3,
+            height: 200,
+            width: 200,
+            boxShadow: 2,
             ml: 2
           }} src={JustinPic} />
         </Box>
