@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Intro from './Intro';
-import Social from './Social';
 import reportWebVitals from './reportWebVitals';
 import Container from '@mui/material/Container';
+import StJoeCaseStudy from './StJoeCaseStudy';
 
 ReactDOM.render(
   <React.StrictMode>
 
     <Container maxWidth="md">
       <Intro />
-      <Social />
+      <StJoeCaseStudy />
     </Container>
   </React.StrictMode>,
   document.getElementById('root')
