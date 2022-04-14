@@ -73,8 +73,8 @@ function Intro() {
         <Grid item xs={12} md={9}>
           <Button sx={{ mt: 2 }} variant="contained" href={Resume} download>Download Resume</Button>
           
-          <Button sx={{ mt: 2, ml: 2}} variant="contained" component={Link} to="/dev-insights" download>Development Insights</Button>
-          <Button sx={{ mt: 2, ml: 2}} variant="contained" component={Link} to="/design-case-study" download>Design Case Study</Button>
+          <Button sx={{ mt: 2, ml: 2}} variant="outlined" component={Link} to="/dev-insights" download>Development Insights</Button>
+          <Button sx={{ mt: 2, ml: 2}} variant="outlined" component={Link} to="/design-case-study" download>Design Case Study</Button>
         </Grid>
 
         <Grid item xs={12} md={3}>
