@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { Box } from '@mui/system';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -10,6 +11,9 @@ import StJoeNewDesign from './downloads/st-joe-new-home.png';
 import ComputerPhone from './downloads/st-joe-computer-phone.png';
 
 function StJoeCaseStudy() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
   return (
     <Container maxWidth="lg">
       <IntroMin />

@@ -1,4 +1,4 @@
-
+import React, { useEffect } from 'react';
 import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
 import IntroMin from './IntroMin';
@@ -7,6 +7,9 @@ import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Grid';
 
 function DevInsights() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
   return (
     <Container maxWidth="lg">
       <IntroMin />
