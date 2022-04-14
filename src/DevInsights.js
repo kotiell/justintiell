@@ -1,23 +1,22 @@
 
 import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
-import Intro from './Intro';
+import IntroMin from './IntroMin';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Grid from '@mui/material/Grid';
 
 function DevInsights() {
   return (
     <Container maxWidth="lg">
-      <Intro />
+      <IntroMin />
       <Paper sx={{
         px: 3,
         py: 2.5,
         mt: 3,
         mb: 3
       }}>
-        <h1>Situation Overview</h1>
+        <h1 id="devHome">Situation Overview</h1>
         <Grid container spacing={4}>
           <Grid item xs={12} lg={4}>
             <Card sx={{

@@ -2,7 +2,7 @@ import { Box } from '@mui/system';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Container from '@mui/material/Container';
-import Intro from './Intro';
+import IntroMin from './IntroMin';
 
 import StJoeRedesign from './downloads/st-joe-redesign.png';
 import StJoeOrg from './downloads/st-joe-org.png';
@@ -12,7 +12,7 @@ import ComputerPhone from './downloads/st-joe-computer-phone.png';
 function StJoeCaseStudy() {
   return (
     <Container maxWidth="lg">
-      <Intro />
+      <IntroMin />
       <Paper sx={{
         px: 3,
         py: 2.5,
