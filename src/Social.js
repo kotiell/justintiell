@@ -4,7 +4,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Link from '@mui/material/Link';
 
-function App() {
+function Social() {
   return (
     <Box sx={{ mt: 2.5, textAlign: 'right' }}>
         <Link href="https://www.linkedin.com/in/justintiell/" sx={{ mr: 1}}><LinkedInIcon /></Link>
@@ -15,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default Social;

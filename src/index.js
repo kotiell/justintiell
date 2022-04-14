@@ -1,19 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Intro from './Intro';
 import reportWebVitals from './reportWebVitals';
-import Container from '@mui/material/Container';
+import Homepage from './Homepage';
 import StJoeCaseStudy from './StJoeCaseStudy';
+import DevInsights from './DevInsights';
 
 ReactDOM.render(
   <React.StrictMode>
 
-    <Container maxWidth="md">
-      <Intro />
-      <StJoeCaseStudy />
-    </Container>
-  </React.StrictMode>,
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="design-case-study" element={<StJoeCaseStudy />} />
+        <Route path="dev-insights" element={<DevInsights />} />
+      </Routes>
+    </BrowserRouter>
+
+  </React.StrictMode >,
   document.getElementById('root')
 );
 
