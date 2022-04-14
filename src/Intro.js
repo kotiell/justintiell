@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Box } from '@mui/system';
 import Resume from './downloads/Justin_Tiell_Resume.pdf';
 import Button from '@mui/material/Button';
@@ -5,8 +6,9 @@ import Paper from '@mui/material/Paper';
 import JustinPic from './downloads/me.jpg';
 import Grid from '@mui/material/Grid';
 import Social from './Social';
+import { Link } from 'react-router-dom';
 
-function App() {
+function Intro() {
   return (
     <Paper sx={{
       px: 3,
@@ -70,6 +72,9 @@ function App() {
       <Grid container spacing={2}>
         <Grid item xs={12} md={9}>
           <Button sx={{ mt: 2 }} variant="contained" href={Resume} download>Download Resume</Button>
+          
+          <Button sx={{ mt: 2, ml: 2}} variant="contained" component={Link} to="/dev-insights" download>Development Insights</Button>
+          <Button sx={{ mt: 2, ml: 2}} variant="contained" component={Link} to="/design-case-study" download>Design Case Study</Button>
         </Grid>
 
         <Grid item xs={12} md={3}>
@@ -80,4 +85,4 @@ function App() {
   );
 }
 
-export default App;
+export default Intro;
