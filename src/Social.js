@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box } from '@mui/system';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';

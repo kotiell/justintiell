@@ -8,8 +8,9 @@ import StJoeCaseStudy from './StJoeCaseStudy';
 import DevInsights from './DevInsights';
 
 ReactDOM.render(
-  <React.StrictMode>
 
+  <React.StrictMode>
+console.log('hello');
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
