@@ -10,7 +10,6 @@ import DevInsights from './DevInsights';
 ReactDOM.render(
 
   <React.StrictMode>
-console.log('hello');
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
