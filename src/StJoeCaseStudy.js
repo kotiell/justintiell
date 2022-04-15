@@ -5,10 +5,10 @@ import Paper from '@mui/material/Paper';
 import Container from '@mui/material/Container';
 import IntroMin from './IntroMin';
 
-import StJoeRedesign from './downloads/st-joe-redesign.png';
-import StJoeOrg from './downloads/st-joe-org.png';
-import StJoeNewDesign from './downloads/st-joe-new-home.png';
-import ComputerPhone from './downloads/st-joe-computer-phone.png';
+import StJoeRedesign from './downloads/st-joe-redesign.jpg';
+import StJoeOrg from './downloads/st-joe-org.jpg';
+import StJoeNewDesign from './downloads/st-joe-new-home.jpg';
+import ComputerPhone from './downloads/st-joe-computer-phone.jpg';
 
 function StJoeCaseStudy() {
   useEffect(() => {
