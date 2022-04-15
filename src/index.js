@@ -7,6 +7,12 @@ import Homepage from './Homepage';
 import StJoeCaseStudy from './StJoeCaseStudy';
 import DevInsights from './DevInsights';
 
+
+import StJoeRedesign from './downloads/st-joe-redesign.png';
+import StJoeOrg from './downloads/st-joe-org.png';
+import StJoeNewDesign from './downloads/st-joe-new-home.png';
+import ComputerPhone from './downloads/st-joe-computer-phone.png';
+
 ReactDOM.render(
 
   <React.StrictMode>

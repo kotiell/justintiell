@@ -37,7 +37,7 @@ function DevInsights() {
               height: '100%'
             }}>
               <CardContent>
-                <h3>Client Pain Point</h3>
+                <h3>Client Pain Points</h3>
                 <p>
                   Client was hosting multiple live events for the various employee roles across the company needing a quick and easy way for each employee to find what live event they needed to attend each hour of a three-day conference.
                 </p>
